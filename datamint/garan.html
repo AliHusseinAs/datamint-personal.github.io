@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/akbn.css">
+    <script src="/js/garan.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <title>Data Mint</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+              <p class="img">Data Mint</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/html/main.html" target="_blank">Home</a></li>
+                <li><a href="/html/comp.html">Comparative Analysis</a></li>
+            </ul>
+            <button class="ml-model">ML Model</button>
+        </nav>
+    </header>
+
+    <main></main>
+        <section class="charts">
+            <h1>Financial Growth Over 10 Years (2013-2023) Garanti BBVA [ The data is fake, it is personal project ]</h1>
+            
+            <div class="chart-container" id="revenue">
+                <h2>Revenue Growth (2013-2023)</h2>
+                <canvas id="revenueChart"></canvas>
+            </div>
+
+            
+            <div class="chart-container" id="cash">
+                <h2>Cash Growth (2013-2023)</h2>
+                <canvas id="cashChart"></canvas>
+            </div>
+
+            
+            <div class="chart-container" id="deposits">
+                <h2>Total Deposits (2013-2023)</h2>
+                <canvas id="depositsChart"></canvas>
+            </div>
+
+            
+            <div class="chart-container" id="loans">
+                <h2>Total Loans (2013-2023)</h2>
+                <canvas id="loansChart"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Data Mint. All rights reserved.</p>
+    </footer>
+</body>
+</html>
